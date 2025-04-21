@@ -11,7 +11,7 @@ class DataService{
         600, 723, 111, 375, 46, 213, 928, 840, 369, 605,
         588, 146, 318, 550, 731, 489, 401, 56, 192, 613];
     
-    async getAll():Promise<number[]>{
+    async getData():Promise<number[]>{
       return [...this.datos];
     }
    
